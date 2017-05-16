@@ -20,10 +20,10 @@ function (get_njs_libs nodejs_dir config_name)
             ${njs_build_lib}/v8_base_3.lib
             ${njs_build_lib}/v8_base_4.lib
             ${njs_build_lib}/v8_base_5.lib
-			${njs_build_lib}/v8_base_6.lib
-			${njs_build_lib}/v8_base_7.lib
-			${njs_build_lib}/v8_base_8.lib
-			${njs_build_lib}/v8_base_9.lib
+            ${njs_build_lib}/v8_base_6.lib
+            ${njs_build_lib}/v8_base_7.lib
+            ${njs_build_lib}/v8_base_8.lib
+            ${njs_build_lib}/v8_base_9.lib
             ${njs_build_lib}/v8_libbase.lib
             ${njs_build_lib}/v8_libplatform.lib
             ${njs_build_lib}/v8_libsampler.lib
