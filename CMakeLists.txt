@@ -121,11 +121,6 @@ if(J2V8_BUILD_ONLY_DEBUG_RELEASE)
 #}
 endif()
 
-# link against the static MS C++ runtime libraries
-if(MSVC)
-    link_static_crt()
-endif()
-
 # create the j2v8 library
 add_library(j2v8 SHARED ${src_files})
 

@@ -18,14 +18,17 @@ function (get_njs_libs nodejs_dir config_name)
             ${njs_build_lib}/v8_base_1.lib
             ${njs_build_lib}/v8_base_2.lib
             ${njs_build_lib}/v8_base_3.lib
+            ${njs_build_lib}/v8_base_4.lib
+            ${njs_build_lib}/v8_base_5.lib
+            ${njs_build_lib}/v8_base_6.lib
+            ${njs_build_lib}/v8_base_7.lib
+            ${njs_build_lib}/v8_base_8.lib
+            ${njs_build_lib}/v8_base_9.lib
             ${njs_build_lib}/v8_libbase.lib
             ${njs_build_lib}/v8_libplatform.lib
             ${njs_build_lib}/v8_libsampler.lib
             ${njs_build_lib}/v8_nosnapshot.lib
             ${njs_build_lib}/v8_snapshot.lib
-
-            # nodejs/build/$Config
-            ${njs_build}/mksnapshot.lib
 
             # nodejs/$Config/lib
             ${njs_extra_lib}/cares.lib
@@ -40,9 +43,6 @@ function (get_njs_libs nodejs_dir config_name)
             ${njs_extra_lib}/node.lib
             ${njs_extra_lib}/openssl.lib
             ${njs_extra_lib}/zlib.lib
-
-            # nodejs/$Config
-            ${njs_extra}/cctest.lib
 
             # additional windows libs, required by Node.js
             Dbghelp
